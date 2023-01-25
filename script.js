@@ -17,3 +17,20 @@ function myFunction() {
       x.style.display = "block";
     }
   }
+  //Swiper JS
+{/* <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> */}
+
+// Slider code
+// var swiper = new Swiper(".mySwiper", {
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   loop: true,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });

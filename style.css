@@ -65,6 +65,9 @@
     color:tan;
     font-weight: bold;
 }
+/* .swiper{
+    width: 950px;
+} */
 /* .right_hero{
   
 } */
@@ -93,27 +96,31 @@
   }
 .header-slider{
     display: flex;
-    position: relative;
+    position: absolute;
+    padding-top: -30rem;
+    max-width: 100rem;
+    height: 40rem;
 }
 .left_slider img{
     position: absolute;
     margin-top: 10rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
     width: 25rem;
     height: 20rem;
+    object-fit: cover;
     border-radius: 3%;
     
 }
 .right_slider .date{
     font-weight: bold;
     margin-top: 13rem;
-    margin-left: 36rem;
+    margin-left: 31rem;
 }
 
 .right_slider .slider_header{
     font-size: 2rem;
     margin-top: 1rem;
-    margin-left: 36rem;
+    margin-left: 31rem;
 }
 .light_text{
     color: #999999;
@@ -122,7 +129,7 @@
 }
 .slider_content{
     margin-top: 1rem;
-    margin-left: 36rem;
+    margin-left: 31rem;
 }
 .slider_footer{
     display: flex;
@@ -131,8 +138,9 @@
     width: 3rem;
     height: 3rem;
     margin-top: 1rem;
-    margin-left: 36rem;
+    margin-left: 31rem;
     border-radius: 50%;
+    object-fit: cover;
 }
 .slider_footer .designation :nth-child(1){
     margin-top: 1.5rem;
@@ -147,7 +155,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 3rem;
     cursor: pointer;
 }
 
@@ -158,43 +166,44 @@ margin: left;
 .container_left_slider img{
     position: absolute;
     margin-top: 5rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
     width: 25rem;
     height: 20rem;
+    object-fit: cover;
     border-radius: 3%;
     
 }
 .container_right_slider .container_date{
     font-weight: bold;
     margin-top: 26rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 
 .container_right_slider .container_slider_header{
     font-size: 2rem;
     margin-top: 1rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 .container_slider_content{
     margin-top: 1rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 .container_slider_footer .container_footer_img img{
     width: 3rem;
     height: 3rem;
     margin-top: 1rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
     border-radius: 50%;
 }
 .container_slider_footer .container_designation :nth-child(1){
     margin-top: -2.5rem;
-    margin-left: 13.5rem;
+    margin-left: 9.1rem;
     font-weight: bold;
     
 }
 .container_des{
     margin-top: 0.2rem;
-    margin-left: 13.5rem;
+    margin-left: 9rem;
     position: relative;
 }
 .part_1{
